@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- above meta element for functioning the website properly in smaller device -->
+    <title>S.M. Khasrul Alam</title>
+    <!-- link google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link font awasome -->
+    <script
+      src="https://kit.fontawesome.com/18745bf46b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"> <img src="img/logo.jpg" alt="logo" /> </a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Interest</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">Experience</a>
+          </li>
+          <li class="nav__item">
+            <a href="contact.html" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">Research</h1>
+      <p class="section__subtitle section__subtitle--intro"></p>
+      <img src="img/research.jpg" alt="UVA logo" class="intro__img" />
+    </section>
+    <!-- /Introduction -->
+
+    <div class="portfolio-item-individual">
+        <p>
+<h3>Research Interests:</h3>
+ <ul>
+    <li>Natural Language Processing</li>
+    <li>Deep Learning</li>
+    <li>Image Processing</li>
+    <li>Deep Neural Network</li>
+
+ </ul>
+        </p>
+        <br>
+      <p>
+          <h3>Application of some supervised learning algorithm in Statlog Data Set</h3>
+            <br>
+        In this project, we have taken a dataset regarding heart diseases. There
+        were 270 instances and 13 attributes. Where each instance represents a
+        human and attributes are about different healthiness measurements like
+        age, sex, chest pain, cholesterol, heartbeat rate, blood sugar rate etc.
+        and a class attribute which tells if this person has heart disease or
+        not. We have applied 4 different classifiers to our dataset. Our
+        objective is to analyze and compare the performance of above -mentioned
+        classifiers using ROC (receiver operating characteristic) curve, ROC
+        Graph and finding the most suitable classifier. Those 4 classifiers used
+        by us are : J48, Random Tree, ZeroR, Navie Bayes
+      </p>
+      <img src="img/r1.png" class="portfolio-img">
+      <img src="img/r4.png" class="portfolio-img">
+      <br><br>
+      <p>
+          <h3>Unsupervised Learning on Absenteeism at work Dataset</h3>
+            <br>
+        We have taken a dataset regarding Absenteeism at work. There were 720 instances and 21 attributes. Where each instance represents an employee of an office and attributes are ID, Reason for absence Absenteeism_time_in_hours, Month of absence, Day of the week, Seasons, Transportation expense, Distance from Residence to Work, Service time, Age, Workload, Average/day, Hit the target, Disciplinary failure, Education, Son, Social drinker, Social smoker, Pet, Weight, Height, Body mass index which can be related for causing their absence in office at different time. We have applied a hierarchical clustering algorithm to our dataset. Our objective is simply to cluster the reasons behind employees' absence and find a correlation between reasons and suggest ways to minimize absences percentage.
+      </p>
+      <img src="img/r3.png" class="portfolio-img">
+    </div>
+
+     <!-- Footer -->
+    <footer class="footer">
+      <a href="contact.html#msg" class="footer__link">Write a Message</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.facebook.com">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.github.com">
+            <i class="fa-brands fa-github fa-2x"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.twitter.com">
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.researchgate.net/">
+            <i class="fa-brands fa-researchgate fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <!-- /Footer -->
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
